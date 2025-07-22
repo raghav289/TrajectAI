@@ -17,7 +17,7 @@ const DashboardPage = () => {
         </div>
         <div className="card">
           <h4>Career Goal</h4>
-          <p>SDE</p>
+          <p>Software Engineer</p>
         </div>
         <div className="card">
           <h4>Roadmap Progress</h4>

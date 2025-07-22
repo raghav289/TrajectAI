@@ -15,7 +15,7 @@ router.post('/', async (req, res) => {
       headers: {
         Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "http://localhost:3000", // for local dev, use your domain when deployed
+        "HTTP-Referer": "https://trajectai.vercel.app", // for local dev, use your domain when deployed
         "X-Title": "traject-ai-roadmap"
       },
       body: JSON.stringify({
