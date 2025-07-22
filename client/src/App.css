@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}

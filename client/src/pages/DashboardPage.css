@@ -1,0 +1,88 @@
+.dashboard-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.welcome-text {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.top-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.card {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-right: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.chart-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.chart {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-right: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.chart img {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.chart:last-child {
+  margin-right: 0;
+}
+
+.legend {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.tab.active {
+  border-bottom: 2px solid #007bff;
+  font-weight: bold;
+}
+
+.roadmap-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}

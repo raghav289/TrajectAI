@@ -1,0 +1,119 @@
+/* src/pages/InterestPage.css */
+
+.interest-page {
+  max-width: 960px;
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+  background-color: #f9fafe;
+}
+
+.interest-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.interest-subtext {
+  font-size: 17px;
+  margin-bottom: 35px;
+  color: #555;
+}
+
+.step-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.step {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.step.active {
+  background-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+}
+
+.step-label {
+  margin: 0 12px;
+  font-weight: 600;
+  color: #888;
+}
+
+.step-label.active {
+  color: #007bff;
+}
+
+.step-divider {
+  width: 40px;
+  height: 3px;
+  background-color: #ccc;
+  margin: 0 5px;
+  border-radius: 2px;
+}
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 18px;
+  margin-bottom: 40px;
+}
+
+.interest-button {
+  padding: 12px 24px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  color: #333;
+}
+
+.interest-button:hover {
+  background-color: #f2f7ff;
+  transform: translateY(-2px);
+}
+
+.interest-button.selected {
+  background-color: #cce5ff; /* Light blue when selected */
+  color: #000; /* Dark text */
+  border-color: #99ccff; /* Optional: matching border */
+}
+
+.continue-button-wrapper {
+  margin-top: 25px;
+}
+
+.continue-button {
+  background-color: #007bff;
+  color: white;
+  padding: 14px 36px;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.continue-button:hover {
+  background-color: #0069d9;
+  transform: translateY(-1px);
+}
