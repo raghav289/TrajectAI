@@ -19,7 +19,7 @@ router.post('/', async (req, res) => {
         "X-Title": "traject-ai-roadmap"
       },
       body: JSON.stringify({
-        model: "openai/gpt-3.5-turbo", // ✅ free and reliable
+        model: "mistralai/mistral-7b-instruct", // ✅ free and reliable
         messages: [
           { role: "system", content: "You are a career guidance assistant." },
           { role: "user", content: prompt }
@@ -45,3 +45,5 @@ router.post('/', async (req, res) => {
 });
 
 module.exports = router;
+
+// "openai/gpt-3.5-turbo"
