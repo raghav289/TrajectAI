@@ -10,7 +10,7 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors({ origin: "https://trajectai.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://trajectai-client.vercel.app", credentials: true }));
 app.use(helmet());
 app.use(express.json());
 
